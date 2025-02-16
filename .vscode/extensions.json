@@ -1,0 +1,18 @@
+{
+  "recommendations": [
+    "dbaeumer.vscode-eslint",
+    "lokalise.i18n-ally",
+    "syler.sass-indented",
+    "ms-vscode.vscode-typescript-next",
+    "dsznajder.es7-react-js-snippets",
+    "editorconfig.editorconfig",
+    "pkief.material-icon-theme",
+    "christian-kohler.path-intellisense",
+    "sibiraj-s.vscode-scss-formatter",
+    "stylelint.vscode-stylelint",
+    "wayou.vscode-todo-highlight",
+    "xabikos.JavaScriptSnippets",
+    "planbcoding.vscode-react-refactor",
+    "cipchk.cssrem"
+  ]
+}
