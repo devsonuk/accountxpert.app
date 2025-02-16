@@ -1,6 +1,6 @@
 {
   "recommendations": [
-    "dbaeumer.vscode-eslint",
+    "biomejs.biome",
     "lokalise.i18n-ally",
     "syler.sass-indented",
     "ms-vscode.vscode-typescript-next",

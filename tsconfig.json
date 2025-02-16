@@ -1,11 +1,12 @@
 {
   "compilerOptions": {
-    "lib": ["DOM", "ES2020"],
+    "lib": ["DOM","dom.iterable", "ES2021"],
     "jsx": "react-jsx",
     "target": "ES2020",
     "noEmit": true,
     "skipLibCheck": true,
     "useDefineForClassFields": true,
+    "baseUrl": "src",
 
     /* modules */
     "module": "ESNext",
@@ -16,8 +17,18 @@
 
     /* type checking */
     "strict": true,
+    "allowJs": false,
     "noUnusedLocals": true,
-    "noUnusedParameters": true
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noImplicitAny": true,
+    "noFallthroughCasesInSwitch": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "allowUnreachableCode": false,
+    "allowUnusedLabels": false,
   },
-  "include": ["src"]
+  "include": ["src"],
+  "exclude": ["**/node_modules", "**/.*/"]
 }
